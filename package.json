@@ -1,11 +1,11 @@
 {
-  "name": "@rahuldjoshi28/react-boilerplate",
+  "name": "@rahuldjoshi28/react-web-setup",
   "version": "1.0.0",
   "description": "A CLI to bootstrap react app with custom options",
   "main": "src/index.js",
   "bin": {
-    "@rahuldjoshi28/react-boilerplate": "bin/create-project",
-    "react-boilerplate": "bin/create-project"
+    "@rahuldjoshi28/react-web-setup": "bin/create-project",
+    "react-web-setup": "bin/create-project"
   },
   "publishConfig": {
     "access": "public"
