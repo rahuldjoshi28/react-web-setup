@@ -1,6 +1,6 @@
 {
   "name": "react-web-setup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI to bootstrap react app with custom options",
   "main": "src/index.js",
   "bin": {
@@ -30,5 +30,9 @@
     "fs-extra": "^9.0.0",
     "inquirer": "^7.1.0",
     "ncp": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spcoder199/react-web-setup"
   }
 }
