@@ -38,6 +38,9 @@ async function promptForOptions(projectName) {
 export async function cli(args) {
 	const projectName = args[2];
 	const selectedOptions = await promptForOptions(projectName);
+	if (projectName) {
+		selectedOptions.projectName = projectName;
+	}
 	console.log(selectedOptions);
 	await createProject(selectedOptions);
 }
