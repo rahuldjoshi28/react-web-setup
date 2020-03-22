@@ -18,6 +18,11 @@
     "customize",
     "react"
   ],
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
   "author": "Rahul Joshi",
   "license": "ISC",
   "dependencies": {
