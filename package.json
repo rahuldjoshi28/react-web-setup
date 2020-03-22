@@ -1,10 +1,9 @@
 {
-  "name": "@rahuldjoshi28/react-web-setup",
+  "name": "react-web-setup",
   "version": "1.0.0",
   "description": "A CLI to bootstrap react app with custom options",
   "main": "src/index.js",
   "bin": {
-    "@rahuldjoshi28/react-web-setup": "bin/create-project",
     "react-web-setup": "bin/create-project"
   },
   "publishConfig": {
