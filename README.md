@@ -2,9 +2,14 @@
 Spend more time on coding than on setting up project.
 react-web-setup setup react project and tests very easily for you.
 
-## Setting up React app:
+## Setting up React app
 ```
 npm react-web-setup <app-name>
+```
+
+## Use without installing
+```
+npx react-web-setup <app-name>
 ```
 
 It will ask you few questions?
