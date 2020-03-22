@@ -1,0 +1,30 @@
+{
+  "name": "@rahuldjoshi28/react-boilerplate",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap react app with custom options",
+  "main": "src/index.js",
+  "bin": {
+    "@rahuldjoshi28/react-boilerplate": "bin/create-project",
+    "react-boilerplate": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "customize",
+    "react"
+  ],
+  "author": "Rahul Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "execa": "^4.0.0",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0",
+    "ncp": "^2.0.0"
+  }
+}
